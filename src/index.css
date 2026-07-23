@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --fade-color: #e5e7eb;
+}
+
+.dark {
+  --fade-color: #000000;
+}
